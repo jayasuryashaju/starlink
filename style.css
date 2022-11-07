@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    background-image: url(images/background.png);
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    
+}
+li,a{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 3%;
+
+}
+.logo{
+   
+    cursor: pointer;
+    width: 150px;
+    height: 26px;
+}
+
+.list,.list2{
+    list-style: none;
+}
+
+
+.list li{
+    display: inline-block;
+    padding: 30px 15px;
+}
+.list2 li{
+    display: inline-block;
+    padding: 30px 15px;
+    
+    
+}
+.menu{
+    display: inline-block;
+}
+.main{
+   color: white;
+
+
+}
+
+
+#head1{
+    
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.para1{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.para2{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.address{
+    margin-top: 19%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+.addrs{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 420px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2)
+    
+    
+    
+}
+.order{
+    text-align: center;
+    background: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 20px;
+    width: 180px;
+    border-radius: 3px;
+    border-width: 0px;
+
+}
+
+
+.availability{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #fff;
+   
+    
+    
+}
+.leagal{
+
+    margin-top: 15px;
+    font-size: 10px;
+    color: gray;
+    width: 100%;
+    display: inline-flex;
+    
+    justify-content: center;
+   
+}
+
+/*----------------------------------------------------- SECOND PAGE -------------------------------------------------------------------*/
+
+
+.secondpage{
+    
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+.firstimage{
+    
+    width: 50vw;
+    margin-top: 32.5px;
+    height: 100vh;
+    display: inline-flex;
+    
+}
+.firstpara{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-right: -17px;
+    width: auto;
+    padding: 10% 8%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    
+}
+.firstpara h1{
+    font-size: 45px;
+}
+.firstpara p{
+    
+    margin-top: 30px;
+    line-height: 25px; 
+}
+.button{
+    margin: 45px 0;
+    margin-right: 44%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-color: white;
+    border-radius: 3px;
+    text-align: center;
+
+    
+}
+
+
+
+/*-------------------------------------------------------THIRD PAGE--------------------------------------------------------------------*/
+
+.thirdpage{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+/* ------------------------------------------------------FORTH PAGE ----------------------------------------------------------------- */
+
+.forthpage{
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ------------------------------------------------------FIFTH PAGE ----------------------------------------------------------------- */
+
+.fifthpage{
+    display: flex;
+    background-image: url(images/fifthpage.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100%;
+}
+.fifthpage div{
+    background-color: transparent;
+    
+}
+.fifthpage h1{
+    color: white;
+}
+.fifthpage button{
+    background-color: transparent;
+}
+.fifthpage .firstpara{
+    display: flex;
+    width: 50%;
+}
+
+/* -----------------------------------------------------SIXTH PAGE -------------------------------------------------------------------- */
+
+.sixthpage{
+    display: flex;
+    font-family: sans-serif;
+    margin-top: -69px;
+    width: 100%;
+    height: 100vh;
+    
+  
+}
+.twobottons{
+    display: flex;
+}
+.sixthpage button{
+    padding: 0px 0px;
+    width: 210px;
+    height: 50px;
+    margin-right: 15px;
+    
+
+}
+.button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/* -----------------------------------------------------SEVENTH PAGE -------------------------------------------------------------------- */
+
+.seventhpage{
+    display: flex;
+    background-color: #272626;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+   
+
+
+}
+.headcot{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-left: 35%;
+    
+}
+.seventhpage div{
+    
+    text-align: center;
+    font: 28px/36px DIN_Regular,Arial,Verdana,sans-serif;
+    padding-top: 200px;
+    margin-left: 100px;
+    padding-right: 100px;
+
+}
+/* -----------------------------------------------------EIGHTH PAGE -------------------------------------------------------------------- */
+.eighthpage{
+    
+    display: flex;
+    
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin-top: -67px;
+  
+    
+}
+
+/* -----------------------------------------------------NINTH PAGE -------------------------------------------------------------------- */
+
+.ninthpage{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin-top: -67px;
+  
+    
+}
+/* -----------------------------------------------------TENTHTH PAGE -------------------------------------------------------------------- */
+
+.tenthpage{
+    display: flex;
+    flex-direction: column;
+    font-family:"Roboto" sans-serif;
+    width: 100%;
+    height: 80vh;
+    background-color:black;
+    color: #fff;
+    line-height: 40px;
+
+}
+.vl {
+    border-left: 2px solid white;
+    height: 230px;
+    /* position: absolute; */
+    margin-left: 50.4%;
+    margin-top: 97px;;
+  }
+  .final{
+    margin-top: 50px;
+    text-align: center ;
+    align-content: center;
+  }
+  .final button{
+    margin: 30px 30%;
+    text-align: center;
+    padding: 15px 85px;
+  }
+  /* ----------------------------------------------------FOOTER----------------------------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+    background-color: black;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+.fcenter ul{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 200px;
+}
+.fcenter ul li{
+    margin-left: 40px;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+}
+  
